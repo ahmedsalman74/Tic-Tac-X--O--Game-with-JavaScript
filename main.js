@@ -11,6 +11,7 @@ function end(num1, num2, num3) {
     document.getElementById('item' + num3).style.background = 'rgb(8, 64, 129)';
     setInterval(function () { title.innerHTML += '.' }, 1000);
     setTimeout(function () { location.reload() }, 4000);
+    turn='final'
 
 }
 function winner() {
